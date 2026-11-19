@@ -1,0 +1,19 @@
+[package]
+name = "codegraphd"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+codegraph-core.workspace = true
+codegraph-security.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+fs4.workspace = true
+dunce.workspace = true
+clap.workspace = true
+walkdir.workspace = true

@@ -1,0 +1,5 @@
+/target
+**/*.rs.bk
+*.pid.lock
+*.sock
+.DS_Store

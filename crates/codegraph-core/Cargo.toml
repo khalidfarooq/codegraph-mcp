@@ -1,0 +1,21 @@
+[package]
+name = "codegraph-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+codegraph-security.workspace = true
+petgraph.workspace = true
+tree-sitter.workspace = true
+tree-sitter-typescript.workspace = true
+tree-sitter-python.workspace = true
+tree-sitter-rust.workspace = true
+tree-sitter-go.workspace = true
+walkdir.workspace = true
+regex.workspace = true
+dunce.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
